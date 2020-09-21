@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Free Web tutorials for HTML and CSS">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="author" content="John Doe">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- <meta http-equiv="refresh" content="30"> --> 
+		<title>Tours & Travels Agency</title>
+		<link rel="icon" href="" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/style.css">	<!-- Externak CSS Link -->
+		<script type="text/javascript" src="js/"></script>	<!-- External JavaSceipt Link -->
+
+		<!-- --------------------------------------------------Internal CSS Start-------------------------------------------------- -->
+		<style type="text/css">
+				
+		</style>
+		<!-- --------------------------------------------------Internal CSS End---------------------------------------------------- -->
+	</head>
+
+	<body>
+
+		<!-- .............................Navigation Bar Start................................-->
+		<header>
+			<div class="container">
+			    <div class="logo">
+			        TTA
+			    </div>
+
+			    <input class="hamburger-button" type="checkbox" id="hamburger-button" />
+			    <label for="hamburger-button">
+			        <div></div>
+			    </label>
+
+			    <div class="menu">
+			        <nav>
+			            <ul>
+			                <li><a href="Q2. Tours & Travels Agency.html">Home</a></li>
+			                <li><a href="AboutUs.html">About Us</a></li>
+			                <li><a href="Tours.html">Tours</a></li>
+			                <li><a href="Booking.html">Booking</a></li>
+			                <li><a href="ContactUs.html">Contact Us</a></li>
+			            </ul>
+			        </nav>
+
+			        <div class="buttons">
+			            <a href="/" class="button primary">Login</a>
+			            <a href="/" class="button">Register</a>
+			        </div>
+			    </div>
+			</div>
+		</header>
+		<!-- .............................Navigation Bar End..................................-->
+
+
+		<!-- .............................Intro & Welcome Content Start.......................-->
+		<div class="intro_content">
+			<h1>Tours</h1>
+		</div>
+		<!-- .............................Intro & Welcome Content End..........................-->
+
+
+
+		<footer></footer>
+
+
+
+		
+		<!-- --------------------------------------------------Internal JavaScript Start------------------------------------------- -->
+		<script type="text/javascript">	//Internal JavaScript
+			
+		</script>
+
+		<script>
+            const hamburgerButton = document.getElementById('hamburger-button');
+            const headerLinks = document.querySelectorAll('header .container .menu a');
+            headerLinks.forEach((link) => {
+            link.addEventListener('click', (e) => hamburgerButton.checked = false);
+            })
+        </script>
+
+		<!-- --------------------------------------------------Internal JavaScript End--------------------------------------------- -->
+	</body>
+</html>
